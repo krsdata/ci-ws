@@ -1,0 +1,19 @@
+
+.navbar-header > a > img {
+    height: 9%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 2%;
+  }
+
+ .navbar-header  a .navbar-brand
+ {
+  float: unset;
+ }
+
+ .navbar
+ {
+	background-color: #e16673; 	
+ }

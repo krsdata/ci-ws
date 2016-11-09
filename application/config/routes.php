@@ -1,0 +1,44 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+
+$route['default_controller'] = "welcome";
+$route['login'] = 'login/index';
+$route['sendmsg'] = 'api/sendmsg';
+$route['dashboard'] = 'dashboard/homepage';
+$route['addrouter'] = 'router/addrouter';
+$route['editrouter'] = 'router/editrouter';
+$route['router'] = 'router/allrouter';
+$route['signup'] = 'login/signup';
+$route['addsignup'] = 'login/signup_data';
+$route['success'] = 'login/getsuccess';
+$route['logout'] = 'login/logout';
+$route['getrouter'] = 'api/getrouter';
+$route['adduser'] = 'api/addusers';
+$route['adduserrouter'] = 'api/adduserrouter';
+$route['addlogs'] = 'api/addlogsvalue';
+$route['sharerouters'] = 'api/sharerouters';
+$route['addlogspost'] = 'api/addlogspost';
+$route['frontend'] = 'frontend/showfront';
+$route['frontimg'] = 'frontend/showimgfront';
+$route['getappusers'] = 'api/getappusers'; 
+$route['addcontact'] = 'api/addcontact';
+$route['frontend/logs'] = 'frontend/showlogs';
+$route['editrouterimage'] = 'router/addrouterimage';
+$route['xlsparser'] = 'api/xlsparser';
+$route['uploadimg'] = 'api/uploadimg';
+//$route['uploadimg_test2'] = 'api/uploadimg_test2';
+$route['faq'] = 'faq/index';
+$route['editfaq'] = 'faq/editfaq';
+$route['addfaq'] = 'faq/addfaq';
+$route['appusers'] = 'router/appusers';
+$route['version'] = 'api/version';
+$route['download'] = 'login/downlaodview';
+$route['adds_track'] = 'api/add_visit_user';
+
+
+
+$route['404_override'] = '';
+
+
+/* End of file routes.php */
+/* Location: ./application/config/routes.php */

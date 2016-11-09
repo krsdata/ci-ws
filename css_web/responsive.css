@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1366px) {
+/*for header	*/
+.menu-section { padding-bottom: 22px; width: 100%; background: #fff; position: relative; z-index: 1; }
+.mainBanner{ height:auto !important;}
+
+
+
+span.error-msg {
+	background: none repeat scroll 0 0 #1A92CE;
+	clear: both;
+	color: #ffffff;
+	font-family: "OratorStd";
+	font-size: 13px;
+	height: 20px !important;
+	left: 0px;
+	line-height: 18px;
+	padding: 0 20px !important;
+	position: absolute;
+	top: -25px;
+}
+.error-msg:after {
+	border-bottom: 7px solid transparent;
+	border-left: 6px solid #1A92CE;
+	border-top: 7px solid transparent;
+	color: red;
+	content: "";
+	display: block;
+	height: 0;
+	position: absolute;
+	right: -6px;
+	top: 3px;
+	width: 0;
+	z-index: 99999;
+}
+.modal-content .form-control {
+	position: relative;
+}
+.modal-dialog { top:150px;}
+
+}
+@media only screen and (max-width: 1280px) {
+	.htw{ width:70%;}
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.top_s_con .top_r_con p{ font-size: 25px; line-height:40px;}
+	/*slider*/
+	.video-slider{ overflow:hidden; width:100%;}
+	
+
+}
+
+
+
+@media only screen and (max-width: 980px) {
+	.myNavi .navbar-default .navbar-nav > li > a{font-size: 12px;   padding: 0 12px;}
+	.navbar-brand > img{ max-width:100%;}
+	.navbar-brand{ padding:15px 5px; width:100%;}	
+	.navbar-header { width: 15%;}
+		
+	/*slider*/
+	.video-slider{ overflow:hidden; width:100%;}
+	
+	.htw{ font-size:16px;}
+	.howConnectTabs .resp-tab-content .htw li span{ width: 35px; height: 35px;  font-size: 16px;   line-height: 35px;}
+	.img-box{ width:190px;} 
+	.sb-nav-retro .sb-navigation-left {  left: -20px !important;}
+	.sb-nav-retro .sb-navigation-right{ right:-20px !important;}
+	.mainBanner img{ width:100% !important;}
+	#section8 {  padding: 0;   width: 95% !important;}
+	
+	
+	
+.modal-dialog {
+	width: 98%;
+}
+.modal-content {
+	padding: 0 10px 5px;
+}
+.login-head {
+	margin: 7px -10px 35px;
+}
+.login-left {
+	width: 60%;
+}
+.modal-dialog .input-lg {
+    min-width: 80%;
+}
+.loginlst{
+	width:40%;
+	}
+	
+	
+	/*31-3-15*/
+	.que, .total-ans{ width:85%; line-height: 25px; font-size:16px;}
+
+}
+@media only screen and (max-width: 768px) {
+	.stayConnectTabs .resp-tabs-container{ background:none; height:auto;}
+	.stayConnectTabs .resp-tab-content{ background:#EDF1F2;}
+	.stayConnectTabs .resp-tab-active{ padding:10px 15px !important; color:#333;}
+	.loc_detail h2{ font-size:30px; margin-bottom:0px;}
+	.footer h1{ font-size:30px;}
+	.stayConnectTabs .resp-tabs-container{ width:100%;}
+	.top_s_con .top_r_con a{ font-size:20px;}
+	.download_app{width: 200px;   padding: 18px 0 15px;}
+	.top_s_con .top_r_con p{ font-size:20px; line-height:35px; margin-bottom:25px;}
+	.stayConnectTabs .resp-tab-content .tabCap{ width:95.3%;}
+	h2.resp-accordion{ font-size:16px;}
+	h2.resp-accordion .fa{ padding-right:12px;}
+	.stayConnectTabs .resp-tab-content .tabCap {  width: 93.8%;}
+	
+	
+}
+
+@media only screen and (max-width: 767px) {
+	img{ max-width:100%;}
+	
+	
+	.navbar-header{ width:100%;}
+	.navbar-brand{ width:auto;}
+	.navbar-toggle{ margin-top:40px;}
+	.navbar-brand{ margin-top:12px;}
+	.myNavi .navbar-default .navbar-nav > li{ display:block; width:100%; height: auto;  padding: 12px 0; border-bottom:1px solid #263b49;}
+	.myNavi .navbar-default .navbar-nav > li a{ width:100%;}
+	.myNavi .navbar-default .navbar-nav > li a:hover{ color:#3498db !important;}
+	h1{ font-size:25px;}
+	.spText p span{ font-size:30px;}
+	
+	
+	.htw{ width:100%; padding-left:0px; margin-top:20px;}
+	h2.resp-accordion{ font-size:16px;}
+	h2.resp-accordion .fa{ padding-right:12px;}
+	
+	
+	.sb-retro-skin.showbiz-container{ max-width:650px;}
+	.mediaholder {  width: 90% !important; margin:0px auto;}
+	.sb-nav-retro .sb-navigation-left {  left: 0px !important;}
+	.sb-nav-retro .sb-navigation-right{ right:0px !important;}
+	
+	
+	
+	/*.top-nav{ display:block;}*/
+	/*.bottm-nav{ display:none;}*/
+	.myNavi:after{ border:0px;}
+	.myNavi .navbar-default .navbar-nav > li:last-child{ border:0px;}
+	/*.myNavi{ position:static;}*/
+	.topLinks ul li{ display:inline-block; float:none;}
+	.topLinks ul{ text-align:center;}
+	.stayConneced{  padding-top:10px;}
+	.back_bot{ top:-110px;}
+	.myNavi .navbar-default .navbar-nav > li > a{ border:0px;}
+	.navbar-brand{ padding:15px;}
+	h2.resp-accordion, h2.resp-accordion:first-child{ border-color:#fff !important;}
+	.resp-arrow{    border-top: 12px solid #fff;}
+	
+	.topLinks span{ display:none;}
+	.topLinks ul li{ border:0px;}
+	.topLinks a {
+    background:#cecece;
+    border-radius: 50%;
+    height: 30px;
+    padding: 0 !important;
+    width: 30px;
+    margin-right:12px;
+	line-height:30px;
+}
+.topLinks a:hover{ background:#fff;}
+.topLinks ul li a i {
+    color:#142A3A;
+    margin: 0;
+	font-size:13px;
+}
+
+
+
+.login-left {
+	width: 100%;
+	border:0px;
+}
+
+.loginlst{
+	width:100%;
+	padding:0px;
+	margin:0px 0 30px;
+	}
+.modal-dialog{
+	top:150px;
+	}
+	
+.mainBanner .carousel-caption{ top:8%;}
+.resp-tabs-container .img-box{ width:223px;}
+.genralSec{ padding-top:50px; padding-bottom:30px;}
+.top_s_con .top_r_con p{ margin-bottom:10px;}
+
+
+
+/*30-3-15 css*/
+/*for navigation*/
+.stayConneced{ position:static;}
+.myNavi.bottm-nav{ position:absolute; top:0px;}
+.topUpper{ margin-top:97px;} 
+
+	
+}
+
+
+@media only screen and (max-width: 685px) {
+	.footer_menu li a{  padding: 5px 7px; font-size:16px;}
+	.footer h1 { font-size: 25px;}
+	.f_social_icon a{ font-size:40px;}
+	.topLinks ul li a{ font-size:14px;}
+	.mainBanner .carousel-caption{ top:5%;}
+	.howConnectTabs .resp-tab-content .htw li{line-height: 30px;}
+	
+	
+.showbiz-navigation.sb-nav-retro {
+    position: relative;
+    z-index: 99;
+}
+.showbiz-navigation.sb-nav-retro a{ margin-top:50px;}
+.stayConnectTabs .resp-tab-content .tabCap {  width: 99.8%;}
+
+.qus-box{ width:55px;}
+.que, .total-ans{ width:80%;}
+}
+@media only screen and (max-width: 600px) {
+	.top_s_img, .text-top{ display:none;}
+	.top_r_con .download_app.wow.fadeInUp.animated{margin: 30% 32%;}
+	.carousel-indicators{ display:none;}
+}
+@media only screen and (max-width: 480px) {
+	.stayConnectTabs .resp-tab-content{ padding:20px;}
+	.stayConnectTabs .stayContent{ position:static;}
+	.stayConnectTabs .resp-tab-content .tabCap{ padding:15px; position:static; background:rgba(0, 0, 0, 0.8);}
+	.loc_detail h2{ font-size:25px;}
+	#section7 .form_feild.name, #section7 .form_feild.phone, #section7 .form_feild.email{ background-size:12%;  padding: 20px 0 20px 45px;}
+	#section7 .form_feild input, #section7 .form_select textarea{ font-size:14px;}
+	.topUpper:after{ top:auto; bottom:-2px;}
+	.topLinks ul li a{ padding:0px;}
+	.top_s_con .top_r_con p {font-size: 16px; line-height: 25px; margin-bottom: 15px;}
+	.top_s_con .top_r_con a{ font-size:18px;}
+	/*.mainBanner .carousel-caption{ top:3%;}
+	.mainBanner .carousel-caption{ position:static; background:#000; padding:40px 15px 70px;}
+	.left.carousel-control, .right.carousel-control{ top:150px;}
+	.left.carousel-control{ left:5px;}
+	.mainBanner .carousel-control.right{ right:5px;}*/
+	
+	#section7 .form_feild{ width:98%;}
+	#section7 .form_feild.name, #section7 .form_feild.phone, #section7 .form_feild.email{ background-size:20px;}
+	.sb-nav-retro .sb-navigation-left {  left:-15px !important;}
+	.sb-nav-retro .sb-navigation-right{ right:-15px !important;}
+	
+	.top_r_con .download_app.wow.fadeInUp.animated{margin: 30% 27%;}
+	
+	#section8{ width:90% !important;}
+	
+	
+	.modal-dialog .input-lg {
+	min-width: 70%;
+	font-size:15px !important;
+}
+.forgot-link{ display:block; margin-left:0px;}
+.modal-content .css-label{ padding-left:0px !important; margin-bottom:10px;}
+
+
+
+	
+	.que{ padding-left:10px;}
+	.que, .total-ans{ width:78%;}
+}
+
+@media only screen and (max-width: 380px) {
+	.stayConnectTabs .resp-tab-content{ padding:8px;}
+	.stayConnectTabs .resp-tab-content .tabCap{ padding:12px;}
+	.stayConnectTabs .resp-tab-content .tabCap p{ font-size:16px;}
+	.showbiz-navigation.sb-nav-retro a {   margin-top: 15px;}
+	.f_social_icon a{ margin:0 35px;}
+	.footer_menu li{ display:block; width:100%;}
+	.download_app { padding: 12px 0 13px;  width: 160px; font-size:14px !important;}
+	.top_r_con .download_app.wow.fadeInUp.animated {   margin: 15% 26%;}
+	
+	.modal-dialog .input-lg {
+	width:65%;
+	min-width: 40%;
+	font-size:15px !important;
+	
+}
+
+.qus-box{ padding:55px 0;}
+.que, .total-ans{ width:68%; padding-left:0px;}
+}
+@media only screen and (max-width: 320px) {
+	.topLinks ul li a{ font-size:12px;}
+	.f_social_icon a {   margin: 0 25px;}
+	.top_r_con .download_app.wow.fadeInUp.animated {   margin: 11% 14%;}
+	}

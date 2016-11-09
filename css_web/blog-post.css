@@ -1,0 +1,195 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+
+  background-color: #eeede8;
+
+  /*  padding-top: 5px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   
+}
+
+footer {
+   /* margin: 50px 0;*/
+}
+
+.demo
+{
+   background-color: #fff;
+   -moz-box-shadow: 1px 1px 1px rgba(100,100,100,0.1), 0 0 25px rgba(0,0,0,0.1) inset;
+   -webkit-box-shadow: 1px 1px 1px rgba(100,100,100,0.1), 0 0 25px rgba(0,0,0,0.1) inset;box-shadow: 1px 1px 1px rgba(100,100,100,0.1), 0 0 25px rgba(0,0,0,0.1) inset;
+   
+   border:1px solid #e7e7e7;border-bottom:3px solid #ccc;padding: 18px;
+   margin: 15px 0;-webkit-border-radius: 10px;-moz-border-radius: 10px;
+ /*  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);*/
+   /*border-radius: 10px;overflow:hidden;*/
+   font-size:13px; 
+
+   /*line-height:20px
+*/}
+
+.excerpt, .entry {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3em;
+    padding-bottom: 2.25em;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 3em;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f9f7f7;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+#circle {  margin-top: 3%;
+    width: 10px; height: 10px;  -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; }
+
+
+
+#blockqoutes:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+
+#blockqoutes:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+
+ .gm-style-iw div
+    {
+        overflow: hidden !important;
+
+       
+    }
+
+    .gm-style-iw
+	{
+	    overflow: hidden !important;
+	    line-height: 1.35;
+	     width: 70% !important; 
+		 min-height: 50px !important;
+		 left: 5px !important;
+		 word-wrap: break-word !important;
+
+	}
+
+  .sidebar-primary-container .widget {
+    
+}
+
+ .box {
+   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    padding-bottom: 0.923em;
+    padding-left: 2.33%;
+    padding-right: 2.33%;
+    padding-top: 1.0em;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: white;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-top-color: #e96144;
+    border-top-style: solid;
+    border-top-width: 3px;
+    font-size: 0.9em;
+    line-height: 1.85;
+    margin-bottom: 1.84502em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 19px;
+}
+
+.demo label {
+
+  font-size: 1.0em;
+  font-weight: 100 !important;
+}
+
+.loading-bar {
+ 
+}
+
+a#inifiniteLoader{
+    position: fixed;  
+    z-index: 2;  
+    bottom: 16%;   
+    left: 30%; 
+    display:none;
+}
+
+.box li {
+    border-bottom-color: #d9dcdf;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 70px;
+    margin-top: 0;
+    padding-bottom: 0.923em;
+    padding-left: 0;
+    padding-right: 0.5em;
+    padding-top: 0.846em;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+     list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    line-height: 1.85;
+}
+
+.box li a {
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    display: block;
+     transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: color;
+    transition-timing-function: ease;
+    font-size: 1.0em;
+    line-height: 1.85;
+    color : #444 ;
+}
+
+
+
+.widget-title {
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.85;
+    margin-bottom: 1.84502em;
+    text-transform: uppercase;
+    padding-left: 10%;
+}
+
+ .box ul li:hover {
+    background: rgba(240, 240, 240, 0.15);
+    padding-left: 0.5em;
+    padding-right: 0;
+    /* added above to be removed now so the space doesn't decrease at all */
+  }
